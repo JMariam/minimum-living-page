@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg{
+    background-image: url(/janImages/Group\ 1881.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    overflow: hidden;
+}
+#menu{
+    height: 84Vh;
+    width: 50%;
+    right: -100%;
+    transition: all 1s;
+    z-index: 100000;
+}
+#menu.active{
+    right:0;
+}
+.half{
+    width: max-content;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+label.ast::after{
+    content: "*";
+    color: rgb(255, 94, 0); 
+    font-weight: bold;
+}
+.trans{
+    width: max-content;
+}
+.bg-oran{
+    background-color: rgb(255, 240, 233);
+}
+.navun::after{
+    display: block;
+    content: "";
+    background: rgba(212, 210, 210, 0.733);
+    height: 1px;
+}
+.under::after{
+    
+    display: block;
+    content: "";
+    background: rgb(255, 94, 0);
+    width: 12rem;
+    height: 2px;
+}
+.underr::after{
+   
+    display: block;
+    content: "";
+    background: rgb(255, 94, 0);
+    width: 6rem;
+    height: 2px;
+}
