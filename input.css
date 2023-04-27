@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bg{
-    background-image: url(/janImages/Group\ 1881.png);
+    background-image: url(../janImages/Group\ 1881.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;

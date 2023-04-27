@@ -700,10 +700,6 @@ video {
   place-content: center;
 }
 
-.place-items-center {
-  place-items: center;
-}
-
 .items-start {
   align-items: flex-start;
 }
@@ -1004,10 +1000,6 @@ video {
   padding-top: 1rem;
 }
 
-.pl-56 {
-  padding-left: 14rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1101,7 +1093,7 @@ video {
 }
 
 .bg{
-  background-image: url(/janImages/Group\ 1881.png);
+  background-image: url(../janImages/Group\ 1881.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -1177,12 +1169,6 @@ label.ast::after{
 }
 
 @media (min-width: 480px) {
-  .sm\:space-y-6 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-  }
-
   .sm\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1251,28 +1237,8 @@ label.ast::after{
     gap: 3rem;
   }
 
-  .md\:gap-10 {
-    gap: 2.5rem;
-  }
-
-  .md\:gap-20 {
-    gap: 5rem;
-  }
-
   .md\:gap-28 {
     gap: 7rem;
-  }
-
-  .md\:gap-2 {
-    gap: 0.5rem;
-  }
-
-  .md\:gap-3 {
-    gap: 0.75rem;
-  }
-
-  .md\:gap-32 {
-    gap: 8rem;
   }
 
   .md\:gap-y-0 {
@@ -1302,22 +1268,16 @@ label.ast::after{
     margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .md\:space-x-3 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(0.75rem * var(--tw-space-x-reverse));
     margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .md\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+  .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:p-8 {
@@ -1348,10 +1308,6 @@ label.ast::after{
 
   .md\:pr-12 {
     padding-right: 3rem;
-  }
-
-  .md\:pl-56 {
-    padding-left: 14rem;
   }
 
   .md\:text-xs {
@@ -1385,12 +1341,6 @@ label.ast::after{
 
   .lg\:gap-0 {
     gap: 0px;
-  }
-
-  .lg\:space-x-3 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
